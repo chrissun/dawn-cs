@@ -4,7 +4,7 @@
 {%- if section.settings.bloglinks != blank -%}
   <div id="blogs">
     {% for link in linklists[section.settings.bloglinks].links %}
-      <a hred="{{ link.url }}"{% if link.active %} class="active"{% endif %}>{{ link.title }}</a>
+      <a href="{{ link.url }}"{% if link.active %} class="active"{% endif %}>{{ link.title }}</a>
     {% endfor %}
   </div>
 {%- endif -%}

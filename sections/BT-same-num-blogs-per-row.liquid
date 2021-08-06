@@ -3,7 +3,9 @@
 {{ 'section-main-blog.css' | asset_url | stylesheet_tag }}
 {%- if section.settings.bloglinks != blank -%}
   <div id="blogs">
-    {% for link in linklists[section.settings.bloglinks].links %}{{ link.title | link_to: link.url }}{% endfor %}
+    {% for link in linklists[section.settings.bloglinks].links %}
+      <a hred="{{ link.url }}"{% if link.active %} class="active"{% endif %}>{{ link.title }}</a>
+    {% endfor %}
   </div>
 {%- endif -%}
 {%- paginate blog.articles by 24 -%}

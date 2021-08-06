@@ -4,7 +4,7 @@
       "type": "BT-same-num-blogs-per-row",
       "settings": {
         "show_image": true,
-        "blogs": false,
+        "blogs": true,
         "show_date": true,
         "show_author": false
       }

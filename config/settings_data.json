@@ -44,7 +44,6 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo_5.png",
           "logo_width": 120,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -66,21 +65,21 @@
             "type": "link_list",
             "settings": {
               "heading": "Produktutvikling",
-              "menu": "product-development"
+              "menu": ""
             }
           },
           "3e063503-3f13-4266-942b-f40c646c2175": {
             "type": "link_list",
             "settings": {
               "heading": "Samarbeid",
-              "menu": "partnerships"
+              "menu": ""
             }
           },
           "da25afea-f489-4943-81aa-bd1c965ece92": {
             "type": "link_list",
             "settings": {
               "heading": "Produktblogg",
-              "menu": "produktblogg"
+              "menu": ""
             }
           }
         },

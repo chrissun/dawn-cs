@@ -482,6 +482,7 @@
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Bestselgere",
         "collection": "bestsellers",
@@ -497,6 +498,7 @@
     },
     "1627475873e3871985": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Alt om tights!",
         "blog": "tights",

@@ -6,7 +6,7 @@
 
 a.klaviyo-bis-trigger {color: #4E4E4E;}
 
-/*
+
 details-disclosure>details {position: static;}
 ul.list-menu.list-menu--inline {position: relative;
   ul.header__submenu.list-menu.list-menu--disclosure {
@@ -36,7 +36,7 @@ ul.header__submenu.list-menu.list-menu--disclosure>li {
     &:hover {color: #555;}
   }
 }
-*/
+
 
 a.banner__media.media>img {
   &.mob {@media screen and (min-width: 750px) {display: none;}}

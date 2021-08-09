@@ -95,6 +95,7 @@
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
             </div>
+            {% comment %}THIS IS WHERE THE BIS EMAIL POPUP BLOCK IS {% endcomment %}
             <div {{ block.shopify_attributes }}>
               {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -125,7 +126,7 @@
 
             <p><b>{{ sizing_recommendation }}</b></p>
             {% if pre_order_information %}
-              <p><b>Dette er en  <a href="/blogs/baerekraft/pre-order">forhåndsbestillingsvare</a></b></p>
+              <p><b>Pre Order Now<a href="/blogs/baerekraft/pre-order">Pre Order Information</a></b></p>
               <ul>
                 <li>{{ "products.pre_order_information_estimated_arrival" | t }} {{ product.metafields.my_fields.pre_order_arrival_date }} </li>
                 <li>{{ "products.pre_order_information_50_off" | t }}</li>

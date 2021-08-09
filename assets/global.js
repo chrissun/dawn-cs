@@ -496,12 +496,11 @@ customElements.define('slider-component', SliderComponent);
 class VariantSelects extends HTMLElement {
   constructor() {
     super();
-    debugger;
     this.addEventListener('change', this.onVariantChange);
   }
 
   onVariantChange() {
-debugger;
+    debugger;
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
@@ -510,7 +509,6 @@ debugger;
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
-
     } else {
       this.updateMedia();
       this.updateURL();
@@ -604,7 +602,6 @@ debugger;
   }
 
   setUnavailable() {
-    debugger;
     const addButton = document.getElementById(`product-form-${this.dataset.section}`)?.querySelector('[name="add"]');
     if (!addButton) return;
     addButton.textContent = window.variantStrings.unavailable;
@@ -625,7 +622,6 @@ class VariantRadios extends VariantSelects {
   }
 
   updateOptions() {
-    debugger;
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;

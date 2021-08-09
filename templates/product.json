@@ -55,7 +55,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Modell height: {{ product.metafields.my_fields.model_height.value }}",
+            "text": "Modell høyde: {{ product.metafields.my_fields.model_height.value }}",
             "text_style": "body"
           }
         },

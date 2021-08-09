@@ -36,8 +36,6 @@
         "1627381930323ba3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/endorpine_banner.jpg",
-        "image_m": "shopify:\/\/shop_images\/Ny_test_71e772a3-ae05-4671-a924-ec905b9a95b6.jpg",
         "image_url": "shopify:\/\/products\/endorphin-rx1-shoes",
         "image2_url": "",
         "desktop_text_box_position": "center",
@@ -52,7 +50,7 @@
         "162567093514930cfb-0": {
           "type": "heading",
           "settings": {
-            "heading": "Reserver og få 50% rabatt på  disse skoene!",
+            "heading": "What the monkey?",
             "heading_size": "small"
           }
         },
@@ -117,8 +115,6 @@
         "1627996800c2be5258-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/VELVET_SET.png",
-        "image_m": "shopify:\/\/shop_images\/VELVET_SET_mobil.png",
         "image_url": "shopify:\/\/products\/velvet-hoodie",
         "image2_url": "",
         "desktop_text_box_position": "center",
@@ -156,7 +152,6 @@
         "162765044288545c14-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/igjen_ebdre.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -206,7 +201,6 @@
         "16256745504cac095c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/summer.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -248,8 +242,6 @@
         "16252134879571dabc-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seamless_alt.jpg",
-        "image_m": "shopify:\/\/shop_images\/seamless_mobil.jpg",
         "image_url": "shopify:\/\/collections\/seamless-tights-dame",
         "image2_url": "",
         "desktop_text_box_position": "center",
@@ -330,7 +322,6 @@
         "162521498901cb9f0c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/summer.jpg",
         "image_url": "",
         "image2_url": "",
         "desktop_text_box_position": "center",
@@ -405,7 +396,6 @@
         "16256752639aa72aec-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mobilfelx_7532b426-1da1-4c0c-bca5-d9fec7968b83.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -448,7 +438,6 @@
         "1625215205f6f9d8b0-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/jeansbanner2_48e7a6ea-db29-4429-9684-17e2cd05be6d.png",
         "image_url": "shopify:\/\/collections\/jeans",
         "image2_url": "",
         "desktop_text_box_position": "center",
@@ -486,7 +475,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/SCRUNCH_bee91178-214d-4973-b3bc-68fac710b56b.png",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -554,7 +542,6 @@
         "162567415706bdadcd-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Product_development_group.jpg",
         "image_url": "",
         "image2_url": "",
         "desktop_text_box_position": "center",

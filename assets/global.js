@@ -585,11 +585,6 @@ class VariantSelects extends HTMLElement {
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
 
-      if (this.currentVariant.available == false){
-
-        debugger;
-        
-      }
   }
 
   toggleAddButton(disable = true, text, modifyClass = true) {

@@ -100,7 +100,7 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-            <div class="bis-email">
+            <div class="bis-email" style="display:none;">
                <div class="sold-out-notification" id="sold-out">
             
                   <div class="BIS-message">
@@ -108,6 +108,13 @@
                   </div>
                   <iframe src="https://www.cognitoforms.com/f/-rHtx5Bef0aFN7LsB04FeA?id=9" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="625" width="100%"></iframe>
                   <script src="https://www.cognitoforms.com/scripts/embed.js"></script>
+                  <script> Cognito.prefill({ "ProductRequested": '{{product.title}}', "VariantRequested": "VariantA" });</script>
+                  <script>Cognito.setCss('.cognito .c-forms-confirmation, .c-forms-form-readonly-public {min-height:20px;} .cognito #c-submit-button {border-radius: 0; text-transform:uppercase;padding:20px 0;height: 50px;}')</script>
+                  <script>Cognito.setCss('.cognito #c-submit-button {border-radius: 0; text-transform:uppercase; padding:20px 0; height: 50px;}')</script>
+      
+
+
+
                   <!--
                   <iframe title="back in stock" src="https://services.cognitoforms.com/f/-rHtx5Bef0aFN7LsB04FeA?id=5" style="position:relative;min-width:100%;width:100%;height:185px;" frameborder="0" scrolling="yes" seamless="seamless" height="680" width="100%"></iframe>
                   <script src="https://services.cognitoforms.com/scripts/embed.js"></script>

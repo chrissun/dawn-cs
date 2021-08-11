@@ -567,6 +567,7 @@ class VariantSelects extends HTMLElement {
   }
 
   renderProductInfo() {
+    //this is where the sold out is added/removed.
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {

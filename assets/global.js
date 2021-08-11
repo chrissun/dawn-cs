@@ -584,6 +584,12 @@ class VariantSelects extends HTMLElement {
         document.getElementById(`price-${this.dataset.section}`)?.classList.remove('visibility-hidden');
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
+
+      if (this.currentVariant.available == false){
+
+        debugger;
+        
+      }
   }
 
   toggleAddButton(disable = true, text, modifyClass = true) {

@@ -586,9 +586,10 @@ class VariantSelects extends HTMLElement {
       });
 
       if (this.currentVariant.available == false){
+        $(".bis-email").show();
+      } else {
+        $(".bis-email").hide();
 
-        debugger;
-        
       }
   }
 

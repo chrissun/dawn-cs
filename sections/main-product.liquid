@@ -100,6 +100,23 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+            <div class="bis-email">
+               <div class="sold-out-notification" id="sold-out">
+            
+                  <div class="BIS-message">
+                      Bummer. We’re out. Sign up to be the first to know when they’re back!
+                  </div>
+                  <iframe title="back in stock" src="https://services.cognitoforms.com/f/-rHtx5Bef0aFN7LsB04FeA?id=5" style="position:relative;min-width:100%;width:100%;height:185px;" frameborder="0" scrolling="yes" seamless="seamless" height="680" width="100%"></iframe>
+                  <script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+                  <script> Cognito.prefill({ "ProductRequested": '{{product.title}}', "VariantRequested": "VariantA" });</script>
+                  <script>Cognito.setCss('.cognito .c-forms-confirmation, .c-forms-form-readonly-public {min-height:20px;} .cognito #c-submit-button {border-radius: 0; text-transform:uppercase;padding:20px 0;height: 50px;}')</script>
+                  <script>Cognito.setCss('.cognito #c-submit-button {border-radius: 0; text-transform:uppercase; padding:20px 0; height: 50px;}')</script>
+                  <style>
+                    .cognito .c-forms-confirmation, .c-forms-form-readonly-public {min-height:20px;} .cognito #c-submit-button {border-radius: 0; height: 50px;}
+                  </style>
+                  
+                </div>
+            </div>
 
           {% for tag in product.tags %}
             {% if tag == "sizing_recommendation:up" %}

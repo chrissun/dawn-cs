@@ -203,9 +203,11 @@
             </div>
             <script>
               $( document ).ready(function() {
-                      console.log( "ready!" );
-                      debugger;
-                  });
+                var dandc = document.getElementsByClassName('dimensionsandcare');
+                  if(dandc.length > 0) {
+                      $(".dimensionsandcare").first().appendTo(".insert_dimensionsandcare");
+                  }
+              });
 
             </script>
           {%- when 'collapsible_tab' -%}

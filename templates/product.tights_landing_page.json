@@ -55,6 +55,15 @@
           "type": "share",
           "settings": {
           }
+        },
+        "9a700bf0-c4fc-4aa2-b5c0-3ec2b8ae94dc": {
+          "type": "care_tab",
+          "settings": {
+            "heading": "Care tab",
+            "content": "",
+            "page": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
@@ -66,7 +75,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "9a700bf0-c4fc-4aa2-b5c0-3ec2b8ae94dc"
       ],
       "settings": {
         "enable_sticky_info": true,

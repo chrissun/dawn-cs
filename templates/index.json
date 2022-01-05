@@ -64,8 +64,8 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false
+            "button_link": "shopify:\/\/products\/apricot-linden-throw-pillow",
+            "button_style_secondary": true
           }
         }
       },

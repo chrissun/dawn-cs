@@ -2,6 +2,7 @@
   "sections": {
     "162635082604a01cfc": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "162635082604a01cfc-0": {
           "type": "heading",
@@ -36,7 +37,8 @@
         "162635082604a01cfc-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4flex_landing.png",
+        "image_url": "",
+        "image2_url": "",
         "desktop_text_box_position": "center",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -123,6 +125,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
+        "show_image_outline": true,
         "show_vendor": false
       }
     }
